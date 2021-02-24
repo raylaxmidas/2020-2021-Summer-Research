@@ -33,3 +33,7 @@ This folder contains visualisations for the different models predicting two exam
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/agent_7.dat_simple.png" width="400"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/agent_208.dat_complex.png" width="400"/> 
 
 All the models have visualizations of the paths they have predicted for PedID 07 and 208. Also contained in the visualisations is the rolling performance of each model as they step through time. The DA models which make use of particle filters also have GIFs which illustrate how they function.
+
+## Acknowledgments
+
+I would like to express my acknowledgment towards my supervisors Dr Minh Kieu and Dr Andrea Raith for mentoring myself throughout the course of the summer. Their support made this project very enjoyable to complete.
