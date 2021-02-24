@@ -11,13 +11,13 @@ Typically, prediction models are trained based on previous historical data and t
 
 ## File Descriptions:
 
-**Ray_DA** = DA Model which uses Particle Filter + LSTM Model + Real World Input (every t = 25,50,75..). Written by Raynil Laxmidas. A flow chart showing how the model functions is shown below. The particle filter used in this model was adapted from [Chapter 12 of Kalman and Bayesian Filters in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/24b9fb3cf756b3c765579decd624132efe7be374/12-Particle-Filters.ipynb).
+**Ray_DA** = DA Model which uses Particle Filter + LSTM Model + Real World Input (every t = 25,50,75..). A flow chart showing how the model functions is shown below. The particle filter used in this model was adapted from [Chapter 12 of Kalman and Bayesian Filters in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/24b9fb3cf756b3c765579decd624132efe7be374/12-Particle-Filters.ipynb). Written by Raynil Laxmidas.
 
 ![Flowchart of DA Model using PF + LSTM Model + Real World Input](https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/DA%20Model%20Flow%20Chart.JPG)
 
-**Ray_LSTM** = Model which only uses a LSTM model to make pedestrain position predictions. Written by Raynil Laxmidas. 
+**Ray_LSTM** = Model which only uses a LSTM inputs to make pedestrain position predictions. Written by Raynil Laxmidas. 
 
-**Ray_Random** = Model which uses a gaussian distribution to randomly select pedestrian speed and angle in order to make pedestrain position predictions. Written by Raynil Laxmidas. Note that this script was adapted from the "Ray_LSTM" model so makes many references to "LSTM" in variable names etc. however angle and speed prediction are purely created from generated from a gaussian distribution, not the LSTM model.
+**Ray_Random** = Model which uses a gaussian distribution to randomly select pedestrian speed and angle in order to make pedestrain position predictions. This script was adapted from the "Ray_LSTM" model so makes many references to "LSTM" in variable names etc. however angle and speed prediction are purely created from generated from a gaussian distribution, not the LSTM model. Written by Raynil Laxmidas.
 
 **M01_LSTM_MK** = Script used to make the LSTM Model. Written by Dr Minh Kieu.
 
