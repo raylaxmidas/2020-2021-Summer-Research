@@ -1,4 +1,4 @@
-# 2020-2021 Summer Research, Raynil Laxmidas
+# 2020 - 2021 Summer Research, Raynil Laxmidas
 **Dynamic Agent-Based Modelling with Data Assimilation in Urban Areas**
 
 The objective of this research was to predict pedestrian movements in grand central train station through:
