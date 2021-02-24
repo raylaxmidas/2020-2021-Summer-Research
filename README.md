@@ -1,4 +1,4 @@
-# 2020-2021-Summer-Research
+# 2020-2021 Summer Research, Raynil Laxmidas
 Dynamic Agent-Based Modelling with Data Assimilation in Urban Areas
 
 The objective of this research was to predict pedestrian movements in grand central train station through:
@@ -41,7 +41,7 @@ DA models receive real world data every 25 time steps and have been initialized 
 
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/Predicted%20Paths/Ped7/No%20Particles/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20Random%20Walk)/Predicted%20Paths/Ped7/No%20Particles/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/LSTM%20Only%20Model/Predicted%20Paths/Ped7/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/Random%20Walk%20Model/Predicted%20Paths/Ped7/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/>  
 
-### PedID 7 DA Model (PF + LSTM) GIF:
+### PedID 7 DA Model (PF + LSTM) Animation:
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/GIFs%20of%20Particle%20Filter%20Running/Ped7/Version%201.gif" width="500"/>
 
 ### PedID 208 Path Predictions:
@@ -49,7 +49,7 @@ DA models receive real world data every 25 time steps and have been initialized 
 
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/Predicted%20Paths/Ped208/No%20Particles/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20Random%20Walk)/Predicted%20Paths/Ped208/No%20Particles/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/LSTM%20Only%20Model/Predicted%20Paths/Ped208/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/Random%20Walk%20Model/Predicted%20Paths/Ped208/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="300"/> 
 
-### PedID 208 DA Model (PF + LSTM) GIF:
+### PedID 208 DA Model (PF + LSTM) Animation:
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/GIFs%20of%20Particle%20Filter%20Running/Ped208/gate9_compressed.gif" width="500"/>
 
 ## Acknowledgments:
