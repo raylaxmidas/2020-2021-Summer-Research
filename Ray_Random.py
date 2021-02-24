@@ -12,7 +12,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from math import cos,sin,atan2,degrees,radians, sqrt
-from keras.models import load_model
 
 """
 This function prepares the data to be passed into the LSTM Model.
@@ -262,7 +261,7 @@ from numpy.random import seed
 #Function to visualise the particle filter:
 def plotLSTM (p1, p2, xlim, ylim, gateID, pedID, iters, savePlot):          
 
-    plt.legend([p1, p2], ['Actual Position', 'Prediction Random Walk Only'], loc=4, numpoints=1)
+    plt.legend([p1, p2], ['Actual Position', 'Prediction Random Walk Only'], loc=2, numpoints=1)
       
     #Plotting:    
     plt.xlim(*xlim)
@@ -280,7 +279,7 @@ def plotLSTM (p1, p2, xlim, ylim, gateID, pedID, iters, savePlot):
     
     if savePlot:
         plt.savefig('Path_GateID_' + str(gateID) + '_PedID_' + str(pedID) 
-                    + '_Iters_' + str(iters) + '.jpeg', dpi=250)
+                    + '_Iters_' + str(iters) + '.jpeg', dpi=750)
     plt.show()
 
 #Store store final position and preformance into dataframe:
@@ -386,7 +385,7 @@ gate_locations = np.array([[0, 275], [125, 700], [577.5 , 700], [740, 655], [740
                             [647.5, 0], [462.5, 0], [277.5, 0], [92.5, 0]])
 
 #Load the testing data
-df = pd.read_csv('./processed_data/ped_data_test2.csv')
+df = pd.read_csv('./processed_data/ped_data_all.csv')
 
 #----------------------------------------------------------------------------
 #Find the list of agents in the data
@@ -395,11 +394,11 @@ pred = 1    #look-ahead window = 1
 lb = 5      #look-back window = 5 intervals
 
 #Set start time to analyse from:
-time = 3010
+time = 1020
 
 #Set GateID and PedID (Example PedID = 7, GateID = 1) to Analyse
 gateID = 0
-pedID = 7
+pedID = 208
 #----------------------------------------------------------------------------
 
 #Find the start and end times of the data
@@ -459,10 +458,10 @@ while gateID <= 10:
 	"""
     seed(2)
     run_Random(PedPredXY,PedActXY,nextLSTMInput,time,pedID,gateID,df,lb,scaler,pedsUsed,preparedData,
-            iters=350, 
+            iters=1000, 
             plot_iteration=False,
-            savePlot=False,
-            savePre = False,
+            savePlot=True,
+            savePre = True,
             xlim=(0,750), 
             ylim=(0,750),
             )
