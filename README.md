@@ -32,7 +32,11 @@ This folder contains visualisations for the different models predicting two exam
 
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/agent_7.dat_simple.png" width="400"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/agent_208.dat_complex.png" width="400"/> 
 
-All the models have visualizations of the paths they have predicted for PedID 07 and 208. Also contained in the visualisations is the rolling performance of each model as they step through time. The DA models which make use of particle filters also have GIFs which illustrate how they function.
+All the models have visualizations of the paths they have predicted for PedID 07 and 208. Also contained in the visualisations is the rolling performance of each model as they step through time. The DA models which make use of particle filters also have GIFs which illustrate how they function. A few of the key visualizations are shown below:
+
+### PedID = 7 Path Prediction
+
+<img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/Predicted%20Paths/Ped7/With%20Particles/Particles%20Transparent/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20Random%20Walk)/Predicted%20Paths/Ped7/With%20Particles/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/LSTM%20Only%20Model/Predicted%20Paths/Ped7/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/Random%20Walk%20Model/Predicted%20Paths/Ped7/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/>  
 
 ## Acknowledgments
 
