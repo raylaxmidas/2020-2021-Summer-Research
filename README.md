@@ -28,5 +28,6 @@ Typically, prediction models are trained based on previous historical data and t
 ## Visualizations Folder
 This folder contains visualisations for the different models predicting two examples cases being PedID = 7 and PedID = 208. PedID = 7 is a relatively simple case, while PedID = 208 is a more complex case where the pedestrian changes their mind about their exit gate resulting in a more complex path. Their actual paths are shown here:
 
-**PedID 07 and 209
+**PedID 07 and 209**
+
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/agent_7.dat_simple.png" width="425"/> <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/agent_208.dat_complex.png" width="425"/> 
