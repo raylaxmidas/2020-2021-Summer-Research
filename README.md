@@ -1,6 +1,12 @@
 # 2020 - 2021 Summer Research, Raynil Laxmidas
 **Dynamic Agent-Based Modelling with Data Assimilation in Urban Areas**
 
+<object data="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/SRS%20Poster%20-%20Raynil%20Laxmidas%20-%20v5.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/SRS%20Poster%20-%20Raynil%20Laxmidas%20-%20v5.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view the poster for this project.: <a href="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/SRS%20Poster%20-%20Raynil%20Laxmidas%20-%20v5.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
 The objective of this research was to predict pedestrian movements in grand central train station through:
 
 - Creating a **Long short-term memory (LSTM)** artificial recurrent neural network (RNN) that predicts pedestrian angle and movement speed based on 5 previous frames of video data.
