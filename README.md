@@ -9,7 +9,7 @@ The objective of this research was to predict pedestrian movements in grand cent
 
 Typically, prediction models are trained based on previous historical data and then used to make predictions independently of any new inputs such as real data or other estimation models running simultaneously. DA is a method used in fields such as weather forecasting, which allows for real-time data and information from different models to be incorporated together to estimate the current state of the system. DA models are continuously recalibrated hence do not suffer increasing uncertainty overtime, unlike typical stochastic models. This research aims to take pedestrian movements acquired through a Grand Central Station video feed and produce a model to predict future motion. This model will use data assimilation of both real-time data and a standard trained LSTM RNN developed in collaboration with Dr Minh Kieu.
 
-## File Descriptions
+## File Descriptions:
 
 **Ray_DA** = DA Model which uses Particle Filter + LSTM Model + Real World Input (every t = 25,50,75..). Written by Raynil Laxmidas. A flow chart showing how the model functions is shown below. The particle filter used in this model was adapted from [Chapter 12 of Kalman and Bayesian Filters in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/24b9fb3cf756b3c765579decd624132efe7be374/12-Particle-Filters.ipynb).
 
@@ -34,13 +34,24 @@ This folder contains visualisations for the different models predicting two exam
 
 All the models have visualizations of the paths they have predicted for PedID 07 and 208. Also contained in the visualisations is the rolling performance of each model as they step through time. The DA models which make use of particle filters also have GIFs which illustrate how they function. A few of the key visualizations are shown below:
 
-### PedID = 7 Path Prediction
+*(Note: the non-DA models have been given the correct exit gates in order to form their path predictions. These models actually produce 10 prediction for each possible exit gate, plots of these can be found in visualizations folder.)*
+
+### PedID 7 Path Predictions:
+DA models receive real world data every 25 time steps and have been initialized with 100 particles.
 
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/Predicted%20Paths/Ped7/No%20Particles/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20Random%20Walk)/Predicted%20Paths/Ped7/No%20Particles/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/LSTM%20Only%20Model/Predicted%20Paths/Ped7/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/Random%20Walk%20Model/Predicted%20Paths/Ped7/Path_GateID_1_PedID_7_Iters_350.jpeg" width="300"/>  
 
-### PedID = 208 Path Prediction
- 
+### PedID 7 DA Model (PF + LSTM) GIF:
+<img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/GIFs%20of%20Particle%20Filter%20Running/Ped7/Version%201.gif" width="500"/>
 
-## Acknowledgments
+### PedID 208 Path Predictions:
+DA models receive real world data every 25 time steps and have been initialized with 100 particles.
+
+<img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/Predicted%20Paths/Ped208/No%20Particles/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20Random%20Walk)/Predicted%20Paths/Ped208/No%20Particles/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/LSTM%20Only%20Model/Predicted%20Paths/Ped208/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="300"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/Random%20Walk%20Model/Predicted%20Paths/Ped208/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="300"/> 
+
+### PedID 208 DA Model (PF + LSTM) GIF:
+<img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/GIFs%20of%20Particle%20Filter%20Running/Ped208/gate9_compressed.gif" width="500"/>
+
+## Acknowledgments:
 
 I would like to express my acknowledgment towards my supervisors Dr Minh Kieu and Dr Andrea Raith for mentoring myself throughout the course of the summer. Their support made this project very enjoyable to complete.
