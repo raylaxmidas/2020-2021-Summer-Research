@@ -62,3 +62,11 @@ DA models receive real world data every 25 time steps and have been initialized 
 ## Acknowledgments:
 
 I would like to express my acknowledgment towards my supervisors Dr Minh Kieu and Dr Andrea Raith for mentoring myself throughout the course of the summer. Their support made this project very enjoyable to complete.
+
+## References:
+Malleson, N., Minors, K., Kieu, L.-M., Ward, J. A., West, A., & Heppenstall, A. (2020). Simulating Crowds in Real Time with Agent-Based Modelling and a Particle Filter. Journal of Artificial Societies and Social Simulation, 23(3), 3.
+
+Srinivasan, S. (2019, August 14). Particle Filter: A hero in the world of Non-Linearity and Non-Gaussian. Medium. https://towardsdatascience.com/particle-filter-a-hero-in-the-world-of-non-linearity-and-non-gaussian-6d8947f4a3dc
+
+Rlabbe/Kalman-and-Bayesian-Filters-in-Python. (n.d.). GitHub. Retrieved February 24, 2021, from https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python
+
