@@ -46,6 +46,11 @@ DA models receive real world data every 25 time steps and have been initialized 
 ### PedID 7 DA Model (PF + LSTM) Animation:
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/GIFs%20of%20Particle%20Filter%20Running/Ped7/Version%201.gif" width="500"/>
 
+### Model Benchmarking of PedID = 7
+The following figure shows the error in pixels throughout each time step predicted for all four models (Note the plot is on a log scale). It can be seen the data assimilation models are able to continuously re-calibrate and hence do not suffer increasing uncertainty unlike the other models. Data Assimilation models had an average error about 10 pixels per iteration which was significantly better than the LSTM only and random walk models which had an average error of 367 and 351 pixels per iteration respectively.
+
+<img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/Performance%20Comparison.JPG" width="800"/>
+
 ### PedID 208 Path Predictions:
 DA models receive real world data every 25 time steps and have been initialized with 100 particles.
 
