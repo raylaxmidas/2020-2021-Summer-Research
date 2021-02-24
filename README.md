@@ -17,7 +17,7 @@ Typically, prediction models are trained based on previous historical data and t
 
 **Ray_LSTM** = Model which only uses a LSTM model to make pedestrain position predictions. Written by Raynil Laxmidas. 
 
-**Ray_Random** = Model which uses a gaussian distribution to randomly select pedestrian speed and angle in order to make pedestrain position predictions. Written by Raynil Laxmidas.
+**Ray_Random** = Model which uses a gaussian distribution to randomly select pedestrian speed and angle in order to make pedestrain position predictions. Written by Raynil Laxmidas. Note that this script was adapted from the "Ray_LSTM" model so makes many references to "LSTM" in variable names etc. however angle and speed prediction are purely created from generated from a gaussian distribution, not the LSTM model.
 
 **M01_LSTM_MK** = Script used to make the LSTM Model. Written by Dr Minh Kieu.
 
