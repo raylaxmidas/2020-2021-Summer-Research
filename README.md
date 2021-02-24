@@ -30,4 +30,4 @@ This folder contains visualisations for the different models predicting two exam
 
 **PedID 07 and 209**
 
-<img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/agent_7.dat_simple.png" width="425"/> <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/agent_208.dat_complex.png" width="425"/> 
+<img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/agent_7.dat_simple.png" width="400"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/agent_208.dat_complex.png" width="400"/> 
