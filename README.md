@@ -11,7 +11,9 @@ Typically, prediction models are trained based on previous historical data and t
 
 ## File Descriptions
 
-**Ray_DA** = DA Model which uses Particle Filter + LSTM Model + Real World Input (every t = 25,50,75..). Written by Raynil Laxmidas.
+**Ray_DA** = DA Model which uses Particle Filter + LSTM Model + Real World Input (every t = 25,50,75..). Written by Raynil Laxmidas. A flow chart showing how the model functions is shown below.
+
+![Flowchart of DA Model using PF + LSTM Model + Real World Input](https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/DA%20Model%20Flow%20Chart.JPG)
 
 **Ray_LSTM** = Model which only uses a LSTM model to make pedestrain position predictions. Written by Raynil Laxmidas. 
 
