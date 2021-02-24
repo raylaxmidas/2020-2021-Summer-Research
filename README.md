@@ -11,7 +11,7 @@ Typically, prediction models are trained based on previous historical data and t
 
 ## File Descriptions
 
-**Ray_DA** = DA Model which uses Particle Filter + LSTM Model + Real World Input (every t = 25,50,75..). Written by Raynil Laxmidas. A flow chart showing how the model functions is shown below.
+**Ray_DA** = DA Model which uses Particle Filter + LSTM Model + Real World Input (every t = 25,50,75..). Written by Raynil Laxmidas. A flow chart showing how the model functions is shown below. The particle filter used in this model was adapted from [Chapter 12 of Kalman and Bayesian Filters in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/24b9fb3cf756b3c765579decd624132efe7be374/12-Particle-Filters.ipynb).
 
 ![Flowchart of DA Model using PF + LSTM Model + Real World Input](https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/DA%20Model%20Flow%20Chart.JPG)
 
