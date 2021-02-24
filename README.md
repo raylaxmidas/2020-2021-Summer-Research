@@ -61,7 +61,7 @@ DA models receive real world data every 25 time steps and have been initialized 
 
 ## Acknowledgments:
 
-I would like to express my acknowledgment towards my supervisors Dr Minh Kieu and Dr Andrea Raith for mentoring myself throughout the course of the summer. Their support made this project very enjoyable to complete.
+I would like to express my acknowledgment towards my supervisors Dr Minh Kieu and Dr Andrea Raith for mentoring me throughout the summer. Their support made this project very enjoyable to complete.
 
 ## References:
 Malleson, N., Minors, K., Kieu, L.-M., Ward, J. A., West, A., & Heppenstall, A. (2020). Simulating Crowds in Real Time with Agent-Based Modelling and a Particle Filter. Journal of Artificial Societies and Social Simulation, 23(3), 3.
