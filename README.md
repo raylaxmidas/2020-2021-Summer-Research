@@ -49,7 +49,7 @@ All the models have visualizations of the paths they have predicted for PedID 07
 *(Note: the non-DA models have been given the correct exit gates in order to form their path predictions. These models actually produce 10 prediction for each possible exit gate, plots of these can be found in visualizations folder.)*
 
 ### 4.1 PedID 7 Path Predictions:
-DA models receive real world data every 25 time steps and have been initialized with 100 particles.
+DA models receive real world data every 25 time steps for re-calibration and have been initialized with 100 particles.
 
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/Predicted%20Paths/Ped7/No%20Particles/Path_GateID_1_PedID_7_Iters_350.jpeg" width="400"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20Random%20Walk)/Predicted%20Paths/Ped7/No%20Particles/Path_GateID_1_PedID_7_Iters_350.jpeg" width="400"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/LSTM%20Only%20Model/Predicted%20Paths/Ped7/Path_GateID_1_PedID_7_Iters_350.jpeg" width="400"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/Random%20Walk%20Model/Predicted%20Paths/Ped7/Path_GateID_1_PedID_7_Iters_350.jpeg" width="400"/>  
 
@@ -62,7 +62,7 @@ The following figure shows the error in pixels throughout each time step predict
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/Performance%20Comparison.JPG" width="800"/>
 
 ### 4.3 PedID 208 Path Predictions:
-DA models receive real world data every 25 time steps and have been initialized with 100 particles.
+DA models receive real world data every 25 time steps for re-calibration and have been initialized with 100 particles.
 
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/Predicted%20Paths/Ped208/No%20Particles/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="400"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20Random%20Walk)/Predicted%20Paths/Ped208/No%20Particles/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="400"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/LSTM%20Only%20Model/Predicted%20Paths/Ped208/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="400"/><img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/Random%20Walk%20Model/Predicted%20Paths/Ped208/Path_GateID_9_PedID_208_Iters_1000.jpeg" width="400"/> 
 
