@@ -74,7 +74,7 @@ A meta-analysis of the four models was performed against all pedestrians present
 
 Data assimilation models were run with 1000 particles and were recalibrated every 25 iterations. All models performed 300 predictions into the future. As the non - DA models cannot determine the gate through calibration inputs, all models were provided with the true gate as an input. 
 
-It can be seen that the DA models preform considerable better than the non - DA models. The best performing model was the DA model using PF and LSTM. This model performed 1.3, 9.4 and 12.5 times better than the DA model using PF and Random Walk, LSTM Only and Random Walk Only models. 
+It can be seen that the DA models preform considerable better than the non - DA models. The best performing model was the DA model using PF and LSTM. This model performed 1.3, 9.4 and 12.5 times better than the DA model using PF and Random Walk, LSTM Only and Random Walk Only models respectively. 
 
 Raw data for this meta analysis can be found in the "meta_analysis" folder.
 
