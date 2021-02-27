@@ -70,7 +70,7 @@ DA models receive real world data every 25 time steps for re-calibration and hav
 <img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/visualizations/DA%20Model%20(PF%20%2B%20LSTM)/GIFs%20of%20Particle%20Filter%20Running/Ped208/gate9_compressed.gif" width="500"/>
 
 ## 5.0 Meta - Analysis of Models
-A meta-analysis of the four models was performed against all pedestrians present in the video frame at time = 1010, which had sufficient data points to run 300 iterations (time step predictions) of the models. Of the 47 pedestrians, 14 were excluded due to having less than 300 data points. 
+A meta-analysis of the four models was performed against all pedestrians present in the video frame at time = 1010, which had sufficient data points to run 300 iterations (time step predictions) of the models. Of the 47 pedestrians, 14 were excluded as they had less than 300 data points. 
 
 Data assimilation models were run with 1000 particles and were recalibrated every 25 iterations. All models performed 300 predictions into the future. As the non - DA models cannot determine the gate through calibration inputs, all models were provided with the true gate as an input. 
 
