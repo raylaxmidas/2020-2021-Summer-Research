@@ -78,7 +78,7 @@ It can be seen that the DA models preform considerably better than the non - DA 
 
 Raw data for this meta analysis can be found in the "meta_analysis" folder.
 
-<img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/meta_analysis/Meta-Analysis.JPG" width="800"/>
+<img src="https://github.com/raylaxmidas/2020-2021-Summer-Research/blob/main/meta_analysis/Meta-Analysis%20Linear.png" width="800"/>
 
 ## 6.0 Acknowledgments:
 
