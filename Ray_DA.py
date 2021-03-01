@@ -2,10 +2,10 @@
 Summer Research Project 2021 - Data Assimilation
 Author: Raynil Laxmidas
 
-This script predict pedestrain movements based on processed grand central train station
+This script predicts pedestrain movements based on processed grand central train station
 video frames. Pedestrian movements are predicted using a data assimilation technique via 
 particle filter which takes in input from a LSTM Model and Real Data. This script requires
-the processed train station data (ped_data_test2.csv) and the LSTM Model to function.
+the processed train station data (ped_data_all.csv) and the LSTM Model to function.
 """
 
 import numpy as np
@@ -569,7 +569,7 @@ gate_locations = np.array([[0, 275], [125, 700], [577.5 , 700], [740, 655], [740
 							[92.5, 0]])
 
 #Load the testing data
-df = pd.read_csv('./processed_data/ped_data_test2.csv')
+df = pd.read_csv('./processed_data/ped_data_all.csv')
 
 #----------------------------------------------------------------------------
 #Find the list of agents in the data
